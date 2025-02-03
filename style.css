@@ -1,5 +1,5 @@
 body{
-    background-color: #ecd9d3;
+    background-color: #F5F2E8;
 }
 
 .wrapper{
@@ -43,4 +43,8 @@ body{
 .span3{
     background-color: #000;
     width: 40vw;
+}
+
+.span3 p{
+    color: white;
 }
