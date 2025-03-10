@@ -109,22 +109,34 @@ body{
 
 .span6{
     grid-area: span6;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .span7{
     grid-area: span7;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .span8{
     grid-area: span8;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .span9{
     grid-area: span9;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .span10{
     grid-area: span10;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .span11{
     grid-area: span11;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .ach{
