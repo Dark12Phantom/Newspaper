@@ -16,10 +16,10 @@ h1, h2, h3, h4, h5, h6, p{
 
 .wrapper{
     width: 70vw;
-    height: 100%;
+    height: max-content;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.3fr 0.4fr 0.2fr 0.2fr 1fr .5fr 1fr .5fr;
+    grid-template-rows: 0.3fr 0.4fr 0.2fr 0.2fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "span1 span1 span1"
     "span2 span2 span2"
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6, p{
 .span2 .marquee{
     width: 400%;
     height: 100%;
-    animation: slide 10s linear infinite;
+    animation: slide 20s linear infinite;
     display: flex;
 }
 
@@ -123,6 +123,10 @@ h1, h2, h3, h4, h5, h6, p{
     align-items: center;
 }
 
+.span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
+    height: fit-content;
+}
+
 .span5{
     grid-area: span5;
     text-align: justify;
@@ -161,9 +165,9 @@ h1, h2, h3, h4, h5, h6, p{
     text-justify: inter-word;
 }
 
-.ach{
+.image{
     width: 100%;
-    height: 200px;
+    height: 100%;
 }
 
 .spani{
