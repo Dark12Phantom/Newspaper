@@ -1,0 +1,10 @@
+@import url('newspaper.css');
+
+body {
+    background-color: #e8f8f0;
+}
+
+.article-title {
+    color: #008080;
+    border-bottom-color: #008080;
+}
