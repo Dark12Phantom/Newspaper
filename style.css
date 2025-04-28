@@ -124,50 +124,32 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
-    height: fit-content;
+    height: auto;
 }
 
 .span5{
     grid-area: span5;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 .span6{
     grid-area: span6;
-    text-align: justify;
-    text-justify: inter-word;
 }
+
 .span7{
     grid-area: span7;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 .span8{
     grid-area: span8;
-    text-align: justify;
-    text-justify: inter-word;
 }
 .span9{
     grid-area: span9;
-    text-align: justify;
-    text-justify: inter-word;
 }
 .span10{
     grid-area: span10;
-    text-align: justify;
-    text-justify: inter-word;
 }
 .span11{
     grid-area: span11;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.image{
-    width: 100%;
-    height: 100%;
 }
 
 .spani{
@@ -176,7 +158,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .spani img{
     width: 100%;
-    height: 100%;
+    height: 500px;
 }
 .span12{
     grid-area: span12;
@@ -260,7 +242,7 @@ article p {
 
 .image {
     width: 100%;
-    height: 150px;
+    height: 100px;
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 10px;
