@@ -2,9 +2,69 @@
 
 body {
     background-color: #f8f8f8;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.article {
+    column-count: 2;
+    column-gap: 40px;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
 }
 
 .article-title {
-    color: #333333;
-    border-bottom-color: #333333;
+    color: #333;
+    border-bottom: 2px solid #333;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    text-align: center;
+    column-span: all;
+    margin-bottom: 20px;
+}
+
+.article-image {
+    width: 100%;
+    border: 3px solid #555;
+    margin: 15px 0;
+    column-span: all;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #444;
+    margin-top: 20px;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list li a img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.contact-list li a img:nth-child(2){
+    width: 30px;
+    height: 30px;
+}
+
+.contact-list li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .article {
+        column-count: 1;
+    }
 }

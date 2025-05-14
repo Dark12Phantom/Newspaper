@@ -1,36 +1,113 @@
-body{
-    background-color: #F5F2E8;
-    height: 100%;
-    width: 100vw;
+body {
+    background-color: #f5f2e8;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    color: #222;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+
+.newspaper-masthead {
+    background-color: #f5f5f5;
+    border-bottom: 3px double #000;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.newspaper-title {
+    font-family: 'Old Standard TT', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+.newspaper-date {
+    font-family: 'Old Standard TT', serif;
+    text-align: center;
+    font-style: italic;
+    margin: 5px 0 0;
+}
+
+.profile-section{
     display: flex;
-    justify-content: center;
     align-items: center;
-    overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6, p{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.wrapper{
-    width: 70vw;
-    height: max-content;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.3fr 0.4fr 0.2fr 0.2fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "span1 span1 span1"
-    "span2 span2 span2"
-    ". span3 ."
-    "span4 span4 span4"
-    "span5 span6 span7"
-    "span8 spani span9"
-    "span10 spani span11"
-    "span12 span12 span12"
-    ;
-    gap: 10px;
+article {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #fff;
+    break-inside: avoid;
+}
+
+.read-more {
+    font-style: italic;
+    color: #333;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    background: #f5f5f5;
+    padding: 10px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.marquee img {
+    display: inline-block;
+    height: 100px;
+    margin: 0 20px;
+}
+
+footer {
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.newspaper-title {
+    font-family: 'Old English Text MT', 'Times New Roman', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+.article {
+    column-count: 2;
+    column-gap: 30px;
+    margin-bottom: 30px;
 }
 
 .span1 {

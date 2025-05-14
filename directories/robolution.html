@@ -6,17 +6,45 @@
     <title>The Daily Phantom - Robolution 2024</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="robolution.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="newspaper-header">
         <h1 class="newspaper-title">The Daily Phantom</h1>
-        <p class="article-date">February 28, 2024</p>
+        <div class="newspaper-masthead">
+            <p class="article-date">February 28, 2024 • Technology Section</p>
+            <p class="newspaper-tagline">Your Trusted Source for Tech News</p>
+        </div>
     </header>
     
-    <article class="article">
-        <h2 class="article-title">Robolution 2024: A Technological Marvel</h2>
-        <img src="../directories/images/robolution.jpg" alt="Robolution Event" class="article-image">
-        <p>Students from the University of Baguio showcased their innovative robotics projects...</p>
+    <article class="article newspaper-article">
+        <h2 class="article-title">Robolution 2024: Coding Challenges</h2>
+        <p class="article-byline">By Erick Gaceta • 5 min read</p>
+        
+        <div class="article-image-container">
+            <img src="../images/robolution2.jpg" alt="Robolution Event" class="article-image">
+            <p class="image-caption">Participants at the Robolution 2024 event</p>
+        </div>
+        
+        <div class="article-columns">
+            <p><span class="drop-cap">T</span>he Robolution event organized by Erovoutika at the University of Baguio revealed significant challenges in our Arduino programming approach, resulting in non-functional robots throughout the competition.</p>
+            
+            <h3 class="section-header">Day 1: Orientation</h3>
+            <p>The event began with an orientation session where we learned about the competition structure and rules. This day was dedicated solely to understanding the event format with no technical inspections or testing.</p>
+            
+            <h3 class="section-header">Day 2: Line Following Challenges</h3>
+            <p>The line following events exposed our Arduino coding issues as the robots failed to move. Problems included incorrect loop structures and improper sensor value handling in our sketches.</p>
+            
+            <h3 class="section-header">Day 3: Sumobot Competition</h3>
+            <p>Our rewritten code still couldn't execute properly during the Sumobot matches. The afternoon featured a robotics quiz where we demonstrated our theoretical knowledge of Arduino programming.</p>
+            
+            <h3 class="section-header">Programming Lessons</h3>
+            <p>This experience taught us valuable lessons about proper code structure, debugging techniques, and the importance of incremental testing in robotics projects. We've since focused on improving our Arduino programming skills through structured practice.</p>
+        </div>
     </article>
+    
+    <footer class="newspaper-footer">
+        <p>© 2024 The Daily Phantom. All rights reserved.</p>
+    </footer>
 </body>
 </html>
