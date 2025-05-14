@@ -235,7 +235,6 @@ h1, h2, h3, h4 {
 
 .spani img{
     width: 100%;
-    height: 500px;
 }
 .span12{
     grid-area: span12;
